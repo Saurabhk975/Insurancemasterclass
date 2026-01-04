@@ -13,7 +13,7 @@ const WhoIsFor = ({ onRegister }) => {
                         </h2>
 
                         <p className="text-gray-600 text-base leading-relaxed mb-8">
-                            First-time buyers, young professionals, and anyone aiming to build a stronger financial foundation.
+                            This masterclass is for anyone who wants to finally understand insurance the right way. Whether you’re a working professional, business owner, parent, or just starting your career — you’ll learn how to choose the correct policy, what to check before buying, the truth about waiting periods and declarations, how add-ons really work, and the full claim process in a simple, practical way
                         </p>
 
                         <button onClick={onRegister} className="btn-primary mb-10">
