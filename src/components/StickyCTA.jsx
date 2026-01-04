@@ -37,22 +37,22 @@ const StickyCTA = ({ onRegister }) => {
                 }`}
         >
             <div className="container mx-auto">
-                <div className="flex items-center justify-between gap-6 max-w-6xl mx-auto">
+                <div className="flex items-center justify-between gap-3 md:gap-6 max-w-6xl mx-auto">
                     {/* Left Side: Image + Text */}
-                    <div className="flex items-center gap-4 md:gap-6">
-                        {/* Mentor Image */}
+                    <div className="flex items-center gap-3 md:gap-6">
+                        {/* Mentor Image - Hidden on mobile */}
                         <img
                             src="/mentor-nobg.png"
                             alt="Saurabh Kulkarni"
-                            className="w-16 h-16 md:w-20 md:h-20 object-cover object-top rounded-full border-2 border-blue-200"
+                            className="hidden md:block w-16 h-16 md:w-20 md:h-20 object-cover object-top rounded-full border-2 border-blue-200"
                         />
                         {/* Text */}
                         <div>
-                            <p className="text-xs md:text-sm text-blue-600 uppercase font-semibold tracking-wide">
-                                INSURANCE MASTERCLASS SERIES
+                            <p className="text-[10px] md:text-sm text-blue-600 uppercase font-semibold tracking-wide">
+                                INSURANCE MASTERCLASS
                             </p>
-                            <h3 className="text-base md:text-xl font-bold text-gray-900">
-                                Smart and Simplified Insurance
+                            <h3 className="text-sm md:text-xl font-bold text-gray-900 leading-tight">
+                                Smart & Simplified Insurance
                             </h3>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const StickyCTA = ({ onRegister }) => {
                     {/* Right Side: Button */}
                     <button
                         onClick={onRegister}
-                        className="btn-primary py-3 px-8 md:py-4 md:px-10 text-base md:text-lg font-bold whitespace-nowrap"
+                        className="btn-primary py-2 px-4 md:py-4 md:px-10 text-sm md:text-lg font-bold whitespace-nowrap min-w-[120px]"
                     >
                         Register Now
                     </button>

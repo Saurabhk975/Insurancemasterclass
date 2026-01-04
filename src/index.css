@@ -50,9 +50,11 @@ body {
 
 @media (max-width: 768px) {
   .sk-arch {
-    height: 300px;
-    border-bottom-left-radius: 50% 80px;
-    border-bottom-right-radius: 50% 80px;
+    min-height: 600px; /* Increased to fit content */
+    height: auto;
+    border-bottom-left-radius: 50% 40px; /* Reduced curve to give more space */
+    border-bottom-right-radius: 50% 40px;
+    padding-bottom: 2rem;
   }
 }
 
