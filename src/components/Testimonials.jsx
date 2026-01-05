@@ -3,16 +3,18 @@ import React from 'react';
 const Testimonials = () => {
     const testimonials = [
         {
-            name: "Saurabh Kulkarni",
+            name: "Swapnil Shinde",
             role: "LINK ASIA",
             text: "Thank you SK Dynamics 360 for taking out your time and conducting an informative and customised webinar. The team at SK Dynamics 360 are spreading the right awareness and SK Dynamics 360 is the right insurance partner and its nuances.",
-            avatar: "/mentor.jpg"
+            avatar: "/swapnil-wagh.png"
         },
         {
             name: "Sanjay Rathod",
             role: "MOBILE REVIEW",
             text: "Honest approach and life-like selling or up-selling. They did not ask me to buy any product during the session. I hope they continue and stay the way of not making marketing webinar.",
-            avatar: "/sanjay-rathod.png"
+            avatar: "/sanjay-rathod.png",
+            imgPos: "object-[50%_15%] origin-center",
+            scale: "scale-110"
         },
         {
             name: "Suraj Takale",
@@ -43,7 +45,7 @@ const Testimonials = () => {
                                     <img
                                         src={testimonial.avatar}
                                         alt={testimonial.name}
-                                        className="w-full h-full object-cover object-top origin-top scale-150"
+                                        className={`w-full h-full object-cover ${testimonial.scale || 'scale-150'} ${testimonial.imgPos || 'object-top origin-top'}`}
                                     />
                                 </div>
                                 <div>
