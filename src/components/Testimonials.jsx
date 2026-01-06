@@ -5,13 +5,13 @@ const Testimonials = () => {
         {
             name: "Swapnil wagh",
             role: "LINK ASIA",
-            text: "Thank you SK Dynamics 360 for taking out your time and conducting an informative and customised webinar. The team at SK Dynamics 360 are spreading the right awareness and SK Dynamics 360 is the right insurance partner and its nuances.",
+            text: "Thank you SK Dynamics 360 for taking out your time and conducting such an insightful investment webinar. The team is spreading the right financial awareness, and with their help, I've finally understood how to balance my portfolio and grow my wealth systematically.",
             avatar: "/swapnil-wagh.png"
         },
         {
             name: "Sanjay Rathod",
             role: "MOBILE REVIEW",
-            text: "Honest approach and life-like selling or up-selling. They did not ask me to buy any product during the session. I hope they continue and stay the way of not making marketing webinar.",
+            text: "Very honest and practical approach to investing. They didn't push any products, just gave pure knowledge on how the market works. I hope they continue these sessions for many more people looking to manage their own money.",
             avatar: "/sanjay-rathod.png",
             imgPos: "object-[50%_15%] origin-center",
             scale: "scale-110"
@@ -19,7 +19,7 @@ const Testimonials = () => {
         {
             name: "Suraj Takale",
             role: "FINEDITION",
-            text: "Just attended an amazing webinar by Saurabh Kulkarni on Life Insurance 101. My biggest takeaway was that I am an investment and term plan is the best. Life Insurance plan.",
+            text: "Just attended an amazing webinar by Saurabh Kulkarni on Wealth Building 101. My biggest takeaway was the power of compounding and how to pick quality mutual funds. Truly eye-opening!",
             avatar: "/suraj-takale.png"
         }
     ];

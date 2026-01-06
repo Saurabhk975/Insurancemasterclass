@@ -36,7 +36,7 @@ const TermsModal = ({ isOpen, onClose }) => {
                         <div className="p-8 overflow-y-auto custom-scrollbar flex-1 bg-[#ffffff]">
                             <div className="space-y-8 text-sm leading-relaxed text-gray-600">
                                 <div className="bg-blue-50/50 p-6 rounded-2xl border border-blue-100/50">
-                                    <h3 className="text-blue-900 font-bold uppercase tracking-wide text-xs mb-2">Health & Term Insurance Masterclass</h3>
+                                    <h3 className="text-blue-900 font-bold uppercase tracking-wide text-xs mb-2">Financial Investment Masterclass</h3>
                                     <p className="text-blue-700 text-sm font-medium italic">Backed by SK Dynamics 360 | Owner: Saurabh Kulkarni</p>
                                 </div>
 
@@ -46,7 +46,7 @@ const TermsModal = ({ isOpen, onClose }) => {
                                         1. GENERAL INFORMATION & ACCEPTANCE OF TERMS
                                     </h4>
                                     <p>
-                                        These Terms and Conditions (“Terms”, “Agreement”) govern your access to, registration for, participation in, and use of the Health & Term Insurance Masterclass (“Masterclass”, “Program”, “Session”) organized, conducted, promoted, and backed by SK Dynamice 360, a business owned and operated by Saurabh Kulkarni (“Organizer”, “Company”, “We”, “Us”, “Our”).
+                                        These Terms and Conditions (“Terms”, “Agreement”) govern your access to, registration for, participation in, and use of the Financial Investment Masterclass (“Masterclass”, “Program”, “Session”) organized, conducted, promoted, and backed by SK Dynamics 360, a business owned and operated by Saurabh Kulkarni (“Organizer”, “Company”, “We”, “Us”, “Our”).
                                     </p>
                                     <p className="mt-4">
                                         By registering for, accessing, attending, viewing, or participating in the Masterclass in any manner (whether online or offline), you acknowledge that you have read, understood, and agreed to be legally bound by these Terms and all applicable laws and regulations.
@@ -73,9 +73,9 @@ const TermsModal = ({ isOpen, onClose }) => {
                                         <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                                         3. PURPOSE AND SCOPE OF THE MASTERCLASS
                                     </h4>
-                                    <p className="mb-3">The Masterclass is designed solely for educational, informational, and awareness purposes related to Health Insurance, Term Insurance, and general insurance concepts.</p>
+                                    <p className="mb-3">The Masterclass is designed solely for educational, informational, and awareness purposes related to Stock Market, Mutual Funds, and general financial investment concepts.</p>
                                     <p className="font-bold text-gray-800 mb-2">Important Notice:</p>
-                                    <p>The Masterclass does not replace professional financial advice, medical advice, legal advice, or tax consultation. Participants are strongly advised to consult licensed professionals before making any insurance or financial decisions.</p>
+                                    <p>The Masterclass does not replace professional financial advice, medical advice, legal advice, or tax consultation. Participants are strongly advised to consult licensed professionals before making any investment or financial decisions.</p>
                                 </section>
 
                                 <section className="p-4 bg-amber-50 rounded-2xl border border-amber-100">
@@ -94,7 +94,7 @@ const TermsModal = ({ isOpen, onClose }) => {
                                         5. NO GUARANTEE OR ASSURANCE
                                     </h4>
                                     <p>
-                                        SK Dynamice 360 and Saurabh Kulkarni do not guarantee approval of any insurance policy, acceptance by any insurance company, or specific premiums/benefits. Insurance decisions are solely determined by the respective companies and underwriting norms.
+                                        SK Dynamics 360 and Saurabh Kulkarni do not guarantee any specific returns, market gains, or success in investment decisions. Financial markets are subject to risks, and past performance is not indicative of future results.
                                     </p>
                                 </section>
 
