@@ -19,10 +19,10 @@ const PromoBanner = ({ onRegister }) => {
                     {/* Right: Content */}
                     <div className="w-full md:w-3/5 text-center md:text-left">
                         <p className="text-blue-600 text-sm md:text-base font-semibold uppercase tracking-wide mb-2">
-                            INVESTMENT MASTERCLASS SERIES
+                            INSURANCE MASTERCLASS SERIES
                         </p>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                            Decode the Secret to Wealth Creation
+                            Smart and Simplified Insurance
                         </h2>
                         <div className="flex items-center justify-center md:justify-start gap-2 text-gray-600 mb-6">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

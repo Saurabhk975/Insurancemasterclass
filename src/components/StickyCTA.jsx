@@ -49,10 +49,10 @@ const StickyCTA = ({ onRegister }) => {
                         {/* Text */}
                         <div>
                             <p className="text-[10px] md:text-sm text-blue-600 uppercase font-semibold tracking-wide">
-                                INVESTMENT MASTERCLASS
+                                INSURANCE MASTERCLASS
                             </p>
                             <h3 className="text-sm md:text-xl font-bold text-gray-900 leading-tight">
-                                Decode the Secret to Wealth Creation
+                                Smart and Simplified Insurance
                             </h3>
                         </div>
                     </div>
