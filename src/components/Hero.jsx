@@ -30,7 +30,7 @@ const Hero = ({ onRegister }) => {
                                     <img src={hipIcon} alt="Health" className="w-full h-full object-contain" />
                                 </div>
                                 <p className="text-lg md:text-2xl text-blue-100 font-bold tracking-wide uppercase opacity-95">
-                                    HIP ( Health Insurance Plan )
+                                    HIP ( HEALTH INSURANCE PLAN )
                                 </p>
                             </div>
                             <div className="flex items-center gap-4">
@@ -38,7 +38,7 @@ const Hero = ({ onRegister }) => {
                                     <img src={tipIcon} alt="Term" className="w-full h-full object-contain" />
                                 </div>
                                 <p className="text-lg md:text-2xl text-blue-100 font-bold tracking-wide uppercase opacity-95">
-                                    TIP ( Term Insurance Plan )
+                                    TIP ( TERM INSURANCE PLAN )
                                 </p>
                             </div>
                         </div>
