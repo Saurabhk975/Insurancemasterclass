@@ -20,7 +20,7 @@ BEGIN:VEVENT
 URL:https://meet.google.com/ckf-eatv-vhi
 DTSTART:20260110T043000Z
 DTEND:20260110T053000Z
-SUMMARY:Financial Investment Masterclass (Wealth)
+SUMMARY:Insurance Masterclass (HIP)
 DESCRIPTION:Joining link: https://meet.google.com/ckf-eatv-vhi
 LOCATION:Google Meet
 END:VEVENT
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 URL:https://meet.google.com/ckf-eatv-vhi
 DTSTART:20260111T043000Z
 DTEND:20260111T053000Z
-SUMMARY:Financial Investment Masterclass (Portfolio)
+SUMMARY:Insurance Masterclass (TIP)
 DESCRIPTION:Joining link: https://meet.google.com/ckf-eatv-vhi
 LOCATION:Google Meet
 END:VEVENT
@@ -36,7 +36,7 @@ END:VCALENDAR`;
         const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
         const link = document.createElement('a');
         link.href = window.URL.createObjectURL(blob);
-        link.setAttribute('download', 'investment-masterclass-invite.ics');
+        link.setAttribute('download', 'insurance-masterclass-invite.ics');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -65,7 +65,7 @@ END:VCALENDAR`;
 
         const template = `Hello ${formData.name},
 
-Thank you for registering for the Financial Investment Masterclass! We are excited to help you start your wealth-building journey.
+Thank you for registering for the Insurance Masterclass! We are excited to help you secure your future.
 
 🗓 Date: Jan 10-11
 ⏰ Time: 10:00 AM
@@ -82,7 +82,7 @@ SK Dynamics 360`;
         const whatsappUrl = `https://wa.me/${formData.phone.replace(/\D/g, '')}?text=${encodeURIComponent(template)}`;
 
         // Email Link
-        const emailSubject = "Investment Masterclass Registration Successful! 📈";
+        const emailSubject = "Insurance Masterclass Registration Successful! 🛡️";
         const emailUrl = `mailto:${formData.email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(template)}`;
 
         try {
@@ -102,8 +102,8 @@ SK Dynamics 360`;
                 await new Promise(resolve => setTimeout(resolve, 1000));
             }
 
-            // Automatically open WhatsApp in a new tab
-            window.open(whatsappUrl, '_blank');
+            // Removed auto window.open to avoid popup blockers. 
+            // The link is now provided in the Success screen button.
 
             setIsLoading(false);
             setStep(6); // Success step
@@ -389,6 +389,27 @@ SK Dynamics 360`;
                                     </ul>
                                 </div>
                                 <div className="space-y-3">
+                                    <a
+                                        href={`https://wa.me/${formData.phone.replace(/\D/g, '')}?text=${encodeURIComponent(`Hello ${formData.name},
+
+Thank you for registering for the Insurance Masterclass! We are excited to help you secure your future.
+
+🗓 Date: Jan 10-11
+⏰ Time: 10:00 AM
+
+Join the Live Class here:
+👉 https://meet.google.com/ckf-eatv-vhi
+
+Please join 5 minutes early to test your audio. See you soon!
+
+Best regards,
+SK Dynamics 360`)}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-full bg-[#25D366] text-white py-4 rounded-2xl font-bold text-lg hover:bg-[#128C7E] transition-all flex items-center justify-center gap-2"
+                                    >
+                                        Get Invite on WhatsApp
+                                    </a>
                                     <a
                                         href="https://meet.google.com/ckf-eatv-vhi"
                                         target="_blank"
