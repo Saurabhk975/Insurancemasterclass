@@ -102,8 +102,9 @@ SK Dynamics 360`;
                 await new Promise(resolve => setTimeout(resolve, 1000));
             }
 
-            // Removed auto window.open to avoid popup blockers. 
-            // The link is now provided in the Success screen button.
+
+            // Auto-open WhatsApp
+            window.open(whatsappUrl, '_blank');
 
             setIsLoading(false);
             setStep(6); // Success step
@@ -389,27 +390,7 @@ SK Dynamics 360`;
                                     </ul>
                                 </div>
                                 <div className="space-y-3">
-                                    <a
-                                        href={`https://wa.me/${formData.phone.replace(/\D/g, '')}?text=${encodeURIComponent(`Hello ${formData.name},
 
-Thank you for registering for the Insurance Masterclass! We are excited to help you secure your future.
-
-🗓 Date: Jan 10-11
-⏰ Time: 10:00 AM
-
-Join the Live Class here:
-👉 https://meet.google.com/ckf-eatv-vhi
-
-Please join 5 minutes early to test your audio. See you soon!
-
-Best regards,
-SK Dynamics 360`)}`}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="w-full bg-[#25D366] text-white py-4 rounded-2xl font-bold text-lg hover:bg-[#128C7E] transition-all flex items-center justify-center gap-2"
-                                    >
-                                        Get Invite on WhatsApp
-                                    </a>
                                     <a
                                         href="https://meet.google.com/ckf-eatv-vhi"
                                         target="_blank"
