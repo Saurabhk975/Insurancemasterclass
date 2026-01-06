@@ -7,23 +7,23 @@ const FAQ = () => {
     const faqs = [
         {
             question: "Will there be a recording available?",
-            answer: "No. Recordings will not be shared due to compliance reasons."
+            answer: "No. Recordings will not be shared to ensure the exclusivity and value of the live interaction."
         },
         {
-            question: "How is this different from other webinars?",
-            answer: "This masterclass focuses on practical, actionable strategies rather than theory. You'll learn from real claim stories and get personalized insights."
+            question: "How is this different from other investment webinars?",
+            answer: "This masterclass focuses on practical, wealth-building strategies rather than complex theory. You'll learn how to build a real-world portfolio and manage risks effectively."
         },
         {
-            question: "Do I need to attend both days?",
-            answer: "While each session is valuable on its own, attending both days will give you a comprehensive understanding of the entire claims process."
+            question: "Do I need to have prior knowledge of the stock market?",
+            answer: "Not at all! This masterclass is designed for beginners and intermediates. We break down complex financial concepts into simple, easy-to-understand steps."
         },
         {
             question: "Can I ask questions during the session?",
-            answer: "Absolutely! We encourage questions and will have dedicated Q&A segments throughout the masterclass."
+            answer: "Absolutely! We encourage interactive learning and will have dedicated segments for Q&A to help clarify your investment doubts."
         },
         {
-            question: "Will this help me choose the right plan later?",
-            answer: "Yes! You'll gain the knowledge needed to evaluate insurance plans and make informed decisions that align with your financial goals."
+            question: "Will this help me start my investment journey?",
+            answer: "Yes! You'll gain the confidence and knowledge needed to pick the right investment instruments and start building your wealth systematically."
         }
     ];
 

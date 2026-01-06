@@ -20,7 +20,7 @@ BEGIN:VEVENT
 URL:https://meet.google.com/ckf-eatv-vhi
 DTSTART:20260110T043000Z
 DTEND:20260110T053000Z
-SUMMARY:Insurance Masterclass (HIP)
+SUMMARY:Financial Investment Masterclass (Wealth)
 DESCRIPTION:Joining link: https://meet.google.com/ckf-eatv-vhi
 LOCATION:Google Meet
 END:VEVENT
@@ -28,7 +28,7 @@ BEGIN:VEVENT
 URL:https://meet.google.com/ckf-eatv-vhi
 DTSTART:20260111T043000Z
 DTEND:20260111T053000Z
-SUMMARY:Insurance Masterclass (TIP)
+SUMMARY:Financial Investment Masterclass (Portfolio)
 DESCRIPTION:Joining link: https://meet.google.com/ckf-eatv-vhi
 LOCATION:Google Meet
 END:VEVENT
@@ -36,7 +36,7 @@ END:VCALENDAR`;
         const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
         const link = document.createElement('a');
         link.href = window.URL.createObjectURL(blob);
-        link.setAttribute('download', 'masterclass-invite.ics');
+        link.setAttribute('download', 'investment-masterclass-invite.ics');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -65,7 +65,7 @@ END:VCALENDAR`;
 
         const template = `Hello ${formData.name},
 
-Thank you for registering for the Insurance Masterclass! We are excited to have you join us.
+Thank you for registering for the Financial Investment Masterclass! We are excited to help you start your wealth-building journey.
 
 🗓 Date: Jan 10-11
 ⏰ Time: 10:00 AM
@@ -82,7 +82,7 @@ SK Dynamics 360`;
         const whatsappUrl = `https://wa.me/${formData.phone.replace(/\D/g, '')}?text=${encodeURIComponent(template)}`;
 
         // Email Link
-        const emailSubject = "Registration Successful! 🎓";
+        const emailSubject = "Investment Masterclass Registration Successful! 📈";
         const emailUrl = `mailto:${formData.email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(template)}`;
 
         try {

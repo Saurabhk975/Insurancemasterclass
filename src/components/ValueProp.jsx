@@ -6,8 +6,8 @@ const ValueProp = () => {
         {
             icon: <Shield size={32} className="text-yellow-500" />,
             title: "100%",
-            subtitle: "Claim Support",
-            description: "Expert guidance on documentation"
+            subtitle: "Portfolio Guidance",
+            description: "Expert mentorship on asset allocation"
         },
         {
             icon: <Users size={32} className="text-blue-600" />,
@@ -19,8 +19,8 @@ const ValueProp = () => {
         {
             icon: <TrendingUp size={32} className="text-blue-600" />,
             title: "Empowering",
-            subtitle: "300+ Attendees",
-            description: "Transforming lives through insurance education"
+            subtitle: "500+ Attendees",
+            description: "Transforming lives through financial education"
         }
     ];
 
