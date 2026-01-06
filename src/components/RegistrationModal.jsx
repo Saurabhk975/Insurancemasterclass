@@ -56,6 +56,21 @@ END:VCALENDAR`;
         if (step > 1) setStep(step - 1);
     };
 
+    const handlePhoneContinue = () => {
+        let phone = formData.phone.trim();
+        // Check if phone starts with + (international format)
+        // If not, assume it's an Indian number and prepend +91
+        if (!phone.startsWith('+')) {
+            // Remove any leading 0s just in case
+            if (phone.startsWith('0')) {
+                phone = phone.substring(1);
+            }
+            phone = `+91 ${phone}`;
+            setFormData(prev => ({ ...prev, phone }));
+        }
+        nextStep();
+    };
+
     const handleSubmit = async (e) => {
         if (e) e.preventDefault();
         setIsLoading(true);
@@ -223,12 +238,12 @@ SK Dynamics 360`;
                                     placeholder="+91 00000 00000"
                                     value={formData.phone}
                                     onChange={handleChange}
-                                    onKeyPress={(e) => e.key === 'Enter' && formData.phone && nextStep()}
+                                    onKeyPress={(e) => e.key === 'Enter' && formData.phone && handlePhoneContinue()}
                                 />
                                 <div className="flex gap-4">
                                     <button onClick={prevStep} className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-600 py-4 rounded-2xl font-bold">Back</button>
                                     <button
-                                        onClick={nextStep}
+                                        onClick={handlePhoneContinue}
                                         disabled={!formData.phone}
                                         className="flex-[2] bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-2xl font-bold text-lg shadow-lg disabled:opacity-50 transition-all"
                                     >
