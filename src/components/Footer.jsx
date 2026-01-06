@@ -24,9 +24,24 @@ const Footer = () => {
                         <h3 className="font-bold text-gray-900 mb-4">Contact Us</h3>
                         <div className="space-y-2 text-sm text-gray-600">
                             <p>📧 <a href="mailto:sk360dynamics@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">sk360dynamics@gmail.com</a></p>
-                            <p className="text-xs leading-relaxed">
-                                Address: Laxmi Hights Shop No 7 Chinchwad
-                            </p>
+                            <a
+                                href="https://www.google.com/maps/place/Sk+360+Dynamics/@18.6627105,73.805989,17z/data=!4m6!3m5!1s0x3bc2b9f7caa282b1:0x82f6becbe5d6adea!8m2!3d18.6627105!4d73.8104951!16s%2Fg%2F11mlxzhdn7?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-start gap-2 text-xs leading-relaxed hover:text-blue-600 transition-colors group"
+                            >
+                                <img src="/google-maps-icon.png" alt="Location" className="w-4 h-4 mt-0.5 object-contain group-hover:scale-110 transition-transform flex-shrink-0" />
+                                <span>Address: Sk 360 Dynamics</span>
+                            </a>
+                            <a
+                                href="https://www.instagram.com/sk360dynamics/?hl=en"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-xs leading-relaxed hover:text-pink-600 transition-colors group"
+                            >
+                                <img src="/instagram-logo.png" alt="Instagram" className="w-4 h-4 object-contain group-hover:scale-110 transition-transform flex-shrink-0" />
+                                <span>Instagram: sk360dynamics</span>
+                            </a>
                         </div>
                     </div>
 

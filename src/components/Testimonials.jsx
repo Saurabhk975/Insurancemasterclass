@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonials = () => {
     const testimonials = [
         {
-            name: "Swapnil Shinde",
+            name: "Swapnil wagh",
             role: "LINK ASIA",
             text: "Thank you SK Dynamics 360 for taking out your time and conducting an informative and customised webinar. The team at SK Dynamics 360 are spreading the right awareness and SK Dynamics 360 is the right insurance partner and its nuances.",
             avatar: "/swapnil-wagh.png"
