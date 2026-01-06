@@ -10,20 +10,20 @@ const FAQ = () => {
             answer: "No. Recordings will not be shared to ensure the exclusivity and value of the live interaction."
         },
         {
-            question: "How is this different from other investment webinars?",
-            answer: "This masterclass focuses on practical, wealth-building strategies rather than complex theory. You'll learn how to build a real-world portfolio and manage risks effectively."
+            question: "How is this different from other insurance webinars?",
+            answer: "This masterclass focuses on the practical reality of claims and policy terms rather than just selling you a plan. You'll learn how to actually get your claim paid."
         },
         {
-            question: "Do I need to have prior knowledge of the stock market?",
-            answer: "Not at all! This masterclass is designed for beginners and intermediates. We break down complex financial concepts into simple, easy-to-understand steps."
+            question: "Do I need to have prior knowledge of insurance?",
+            answer: "Not at all! We start from the basics and explain complex terms like 'Co-pay', 'Deductibles', and 'Waiting Periods' in simple language."
         },
         {
             question: "Can I ask questions during the session?",
-            answer: "Absolutely! We encourage interactive learning and will have dedicated segments for Q&A to help clarify your investment doubts."
+            answer: "Absolutely! We encourage questions and will have dedicated segments to clear your doubts about your existing or new policies."
         },
         {
-            question: "Will this help me start my investment journey?",
-            answer: "Yes! You'll gain the confidence and knowledge needed to pick the right investment instruments and start building your wealth systematically."
+            question: "Will this help me choose the right policy?",
+            answer: "Yes! You'll gain the framework to compare plans effectively and pick one that actually covers you when you need it."
         }
     ];
 
