@@ -13,7 +13,7 @@ const WhoIsFor = ({ onRegister }) => {
                         </h2>
 
                         <p className="text-gray-600 text-base leading-relaxed mb-8">
-                            This masterclass is for anyone who wants to finally understand investing the right way. Whether you’re a working professional, business owner, parent, or just starting your career — you’ll learn how to choose the right financial instruments, what to check before investing, the truth about market cycles and volatility, how to build a diversified portfolio, and the full process of wealth creation in a simple, practical way
+                            This masterclass is for anyone who wants to finally understand insurance the right way. Whether you’re a working professional, business owner, parent, or just starting your career — you’ll learn how to choose the right policy, what to check before buying, the truth about waiting periods and declarations, how add-ons really work, and the full claim process in a simple, practical way
                         </p>
 
                         <button onClick={onRegister} className="btn-primary mb-10">
@@ -66,7 +66,7 @@ const WhoIsFor = ({ onRegister }) => {
                             />
                             <div className="absolute bottom-8 left-8 right-8 bg-white p-4 rounded-2xl shadow-xl z-10">
                                 <h3 className="text-xl font-bold text-gray-900 mb-1">Saurabh Kulkarni</h3>
-                                <p className="text-xs text-blue-600 font-medium">Financial Growth Expert | Founder, SK Dynamics 360 | Investment Strategist</p>
+                                <p className="text-xs text-blue-600 font-medium">Insurance Expert | Founder, SK Dynamics 360 | Claim Strategist</p>
                             </div>
                         </div>
                     </div>

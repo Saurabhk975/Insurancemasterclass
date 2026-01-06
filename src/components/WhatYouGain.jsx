@@ -2,10 +2,10 @@ import React from 'react';
 
 const WhatYouGain = ({ onRegister }) => {
     const lessons = [
-        "Smart Investing Strategies for 2024",
-        "Power of Compounding & Long-term Wealth",
-        "Risk Management in Stock Market",
-        "Building Your Dividend Income"
+        "Smart Strategies for Buying Right Insurance",
+        "Understanding Policy Terms & Hidden Clauses",
+        "Risk Management with Health & Term Plans",
+        "Mastering the Claim Settlement Process"
     ];
 
     return (
@@ -23,7 +23,7 @@ const WhatYouGain = ({ onRegister }) => {
                                 What Will You Gain?
                             </h2>
                             <p className="text-blue-100 leading-relaxed mb-8">
-                                This 2-day masterclass simplifies investing so you can make confident, informed decisions. Learn how to grow your money, secure your future, and build a portfolio that grows with your goals and changing needs.
+                                This 2-day masterclass simplifies insurance so you can make confident, informed decisions. Learn how to protect your family, secure your future, and build a safety net that covers you when you need it most.
                             </p>
                             <button onClick={onRegister} className="bg-white text-blue-600 hover:bg-blue-50 font-bold py-3.5 px-8 rounded-xl transition-all duration-200">
                                 Register Now
