@@ -14,7 +14,7 @@ const Hero = ({ onRegister }) => {
                         Insurance Masterclass Series
                     </h1>
                     <p className="text-base md:text-lg text-blue-50 max-w-2xl mx-auto px-4 mb-6" style={{ textShadow: '0 0 20px rgba(255, 255, 255, 0.3)' }}>
-                        Master the art of smart investing with expert guidance
+                        Master the art of smart insurance planning with expert guidance
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-24 mt-6">

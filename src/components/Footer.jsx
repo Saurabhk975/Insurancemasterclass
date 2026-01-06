@@ -15,7 +15,7 @@ const Footer = () => {
                             <span className="text-2xl font-extrabold text-gray-900">SK Dynamics 360</span>
                         </div>
                         <p className="text-sm text-gray-600 leading-relaxed">
-                            With SK Dynamics 360, you don't just learn about investing. You understand it. You master it. And you make better financial decisions for lasting wealth.
+                            With SK Dynamics 360, you don't just learn about insurance. You understand it. You master it. And you make better coverage decisions for lasting security.
                         </p>
                     </div>
 
